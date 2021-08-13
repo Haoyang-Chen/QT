@@ -1,0 +1,11 @@
+debug/cscore.o
+debug/csportman.o
+debug/main.o
+debug/mainwindow.o
+debug/readonlydelegate.o
+debug/selectdialog.o
+debug/signupdialog.o
+debug/sportsmaninfotable.o
+debug/moc_mainwindow.o
+debug/moc_selectdialog.o
+debug/moc_signupdialog.o

@@ -1,0 +1,11 @@
+release/cscore.o
+release/csportman.o
+release/main.o
+release/mainwindow.o
+release/readonlydelegate.o
+release/selectdialog.o
+release/signupdialog.o
+release/sportsmaninfotable.o
+release/moc_mainwindow.o
+release/moc_selectdialog.o
+release/moc_signupdialog.o
