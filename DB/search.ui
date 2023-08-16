@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>search</class>
+ <widget class="QWidget" name="search">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>977</width>
+    <height>479</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QTableWidget" name="tableWidget">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>591</width>
+     <height>481</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <row>
+    <property name="text">
+     <string>1</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>2</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>3</string>
+    </property>
+   </row>
+   <column>
+    <property name="text">
+     <string>场所名</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>地址</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>电话</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>风险等级</string>
+    </property>
+   </column>
+   <item row="0" column="0">
+    <property name="text">
+     <string>教8</string>
+    </property>
+   </item>
+   <item row="0" column="1">
+    <property name="text">
+     <string>东南大学教学楼8</string>
+    </property>
+   </item>
+   <item row="0" column="2">
+    <property name="text">
+     <string>11111111111111</string>
+    </property>
+   </item>
+   <item row="0" column="3">
+    <property name="text">
+     <string>高风险</string>
+    </property>
+   </item>
+   <item row="1" column="0">
+    <property name="text">
+     <string>教6</string>
+    </property>
+   </item>
+   <item row="1" column="1">
+    <property name="text">
+     <string>东南大学教学楼6</string>
+    </property>
+   </item>
+   <item row="1" column="2">
+    <property name="text">
+     <string>22222222222</string>
+    </property>
+   </item>
+   <item row="1" column="3">
+    <property name="text">
+     <string>低风险</string>
+    </property>
+   </item>
+   <item row="2" column="0">
+    <property name="text">
+     <string>新桃</string>
+    </property>
+   </item>
+   <item row="2" column="1">
+    <property name="text">
+     <string>东南大学桃园北食堂</string>
+    </property>
+   </item>
+   <item row="2" column="2">
+    <property name="text">
+     <string>99999999999</string>
+    </property>
+   </item>
+   <item row="2" column="3">
+    <property name="text">
+     <string>低风险</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QTextEdit" name="textEdit">
+   <property name="geometry">
+    <rect>
+     <x>760</x>
+     <y>200</y>
+     <width>171</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="textEdit_3">
+   <property name="geometry">
+    <rect>
+     <x>760</x>
+     <y>260</y>
+     <width>171</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>730</x>
+     <y>40</y>
+     <width>121</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>27</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>场所查询</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>660</x>
+     <y>200</y>
+     <width>61</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>19</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>场所</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>640</x>
+     <y>260</y>
+     <width>81</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>19</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>身份证号</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>660</x>
+     <y>390</y>
+     <width>101</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>查询</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>820</x>
+     <y>390</y>
+     <width>101</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>返回</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
